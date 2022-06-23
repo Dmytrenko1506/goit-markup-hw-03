@@ -18,7 +18,54 @@ body {
 ul {
   list-style-type: none;
 }
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
 /* --Навигация-- */
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head-nav {
+  display: flex;
+  margin: 0;
+}
+.nav-links {
+  display: flex;
+  margin: 0;
+  margin-left: 93px;
+  padding: 0;
+  align-items: center;
+}
+.head-nav .logo {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.head-nav .item + .item {
+  margin-left: 50px;
+}
+
+.contacts .item + .item {
+  margin-left: 50px;
+}
+.contacts {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
 .logo,
 .link {
   color: var(--brand-color);
@@ -64,7 +111,10 @@ ul {
   text-align: center;
   text-transform: uppercase;
 }
-
+.hero-title {
+  margin: 0 auto;
+  width: 696px;
+}
 .btn-hero {
   color: var(--white-color);
   background-color: var(--rare-color);
@@ -79,6 +129,13 @@ ul {
 .btn-hero:hover,
 .btn-hero:focus {
   background-color: var(--btn-bg-hover);
+}
+
+.btn-hero {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 /* --Преимущества-- */
 .visually-hidden {
