@@ -218,6 +218,7 @@ ul {
 }
 .team-item {
   text-align: center;
+  border-bottom: 1px solid #ececec;
 }
 .team-item + .team-item {
   margin-left: 30px;
