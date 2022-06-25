@@ -37,7 +37,6 @@ ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 /* --Навигация-- */
 .nav {
@@ -205,11 +204,11 @@ ul {
 .work-img + .work-img {
   margin-left: 30px;
 }
-.img {
+/* .img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 /* -- Наша команда -- */
 .team {
   background-color: var(--btn-bg-secondary-color);
@@ -318,4 +317,37 @@ ul {
 
 .list + .list {
   margin-top: 9px;
+}
+
+/*-- Портфолио --*/
+
+/* --Фильтры-- */
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filters .item + .item {
+  margin-left: 8px;
+}
+/* --Карточки-- */
+.projects-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+.project-list {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ececec;
+}
+.project-list .img {
+  margin-bottom: 20px;
+}
+.project-card-title {
+  margin-bottom: 4px;
+}
+.project-card-text {
+  margin-bottom: 20px;
 }
