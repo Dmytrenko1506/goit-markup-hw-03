@@ -16,6 +16,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+/* Reset */
 h1,
 h2,
 h3,
@@ -56,10 +57,16 @@ ul {
 }
 .nav-links {
   display: flex;
+
   margin: 0;
   margin-left: 93px;
   padding: 0;
   align-items: center;
+}
+.nav-links .link {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .head-nav .logo {
   padding-top: 24px;
@@ -204,11 +211,11 @@ ul {
 .work-img + .work-img {
   margin-left: 30px;
 }
-/* .img {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
-} */
+}
 /* -- Наша команда -- */
 .team {
   background-color: var(--btn-bg-secondary-color);
